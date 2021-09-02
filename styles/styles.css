@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Global Styles */
+
+body {
+    background-color: #ab0101;
+    background-image: url(https://raw.githubusercontent.com/DjMikeLin/Blackjack/master/Images/background.jpg);
+}
+
+
+/* Header */
+
+.header {
+    background-color: #353333;
+    padding: 0.5rem;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    height: 3rem;
+    width: 5rem;
+}
+
+.logo-text {
+    margin: 0 0 0 1rem;
+    font-size: 2rem;
+    color: rgb(202, 172, 0);
+}
+
+.logo-text span {
+    color: rgb(177, 4, 4);
+    font-weight: bold;
+}
+
+/* Table */
+
+.table {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    z-index: -999;
+}
+
+/* Buttons */
+
+.buttons-players {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.button {
+    background-color: #3b3b3b;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+    width: 10rem; 
+}
+
+.button:hover {
+    background-color: #575757;
+}
+
+/* Players */
+
+.players {
+    background-color: rgba(238, 228, 91, 0.534);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    width: 10%;
+}
+
+.players p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.players p:first-child {
+    color: rgb(128, 0, 0);
+}
